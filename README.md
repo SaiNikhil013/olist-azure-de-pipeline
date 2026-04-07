@@ -7,9 +7,9 @@ Day 1 ✅ — Azure setup complete, Bronze layer populated, first ADF Copy pipel
 ## Tech Stack
 - Azure Data Factory (orchestration)
 - ADLS Gen2 (data lake — Bronze/Silver/Gold)
-- Azure Databricks (PySpark transformations) — Day 2
-- Delta Lake (storage format) — Day 3
-- dbt (Gold layer models) — Days 6–7
-- Power BI (dashboards) — Day 12
-- Great Expectations (data quality) — Day 5
-- MLflow (experiment tracking) — Day 11
+- Azure Databricks (PySpark transformations) 
+- Delta Lake (storage format)
+- dbt (Gold layer models)
+- Power BI (dashboards)
+- Great Expectations (data quality)
+- MLflow (experiment tracking)
