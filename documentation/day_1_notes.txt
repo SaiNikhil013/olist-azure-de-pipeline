@@ -1,0 +1,23 @@
+# Day 1 Notes - Azure Setup
+
+## Work Completed
+- Created Resource Group: rg-olist-de-project
+- Created Storage Account (ADLS Gen2 enabled)
+- Created containers: bronze, silver, gold
+- Created folder structure for Medallion Architecture
+- Uploaded Olist dataset into bronze/raw/olist
+
+## Folder Structure
+bronze/
+  raw/olist/*.csv
+  delta/
+silver/
+  delta/
+gold/
+  delta/
+
+## Issues Faced
+- None 
+
+## Next Step (Day 2)
+- Create Azure Data Factory pipeline for ingestion
